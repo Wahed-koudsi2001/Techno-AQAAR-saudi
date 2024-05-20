@@ -689,6 +689,7 @@ input.form-check-input {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 50px;
+    overflow: hidden;
 }
 
 .apps-text h3 {

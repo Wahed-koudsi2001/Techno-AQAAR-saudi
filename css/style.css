@@ -1644,3 +1644,17 @@ section.footer-v2 {
 .mm2 {
     width: 120px;
 }
+
+.copy-right {
+    text-align: right;
+    line-height: 38px;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .copy-right {
+        text-align: center;
+        line-height: 38px;
+        margin-bottom: 12px;
+    }
+}

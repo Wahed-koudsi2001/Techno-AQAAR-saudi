@@ -149,9 +149,12 @@ b {
 }
 
 .btn-primary {
-    height: 48px;
-    width: 8rem;
-    line-height: 30px;
+    height: 34px;
+    width: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 5px;
     font-size: 16px;
     margin-bottom: 39px;
 
@@ -680,6 +683,7 @@ input.form-check-input {
 
 /******************slide*************/
 .slide {
+    padding-top: 80px;
     background-image: url(../images/bg2.png);
     background-position: top;
     background-repeat: no-repeat;

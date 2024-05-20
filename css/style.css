@@ -62,7 +62,6 @@ b {
     text-align: center;
     padding: 10px;
     opacity: .8;
-
     -webkit-transform: scale3d(0.8, 0.8, 1)rotate(0deg);
     transform: scale3d(0.8, 0.8, 1) rotate(0deg);
     -webkit-transition: all 0.3s ease-in-out;
@@ -70,6 +69,10 @@ b {
     transition: all 0.3s ease-in-out;
     background-color: #FFF;
     border-radius: 16px;
+}
+
+.navbar-toggler {
+    font-size: 2rem;
 }
 
 #customers-testimonials .owl-item.active.center {
@@ -269,11 +272,6 @@ a.order-prices-1:hover {
     color: #0f5b94 !important;
     border: 1px solid #0f5b94 !important;
     background-color: #fff !important;
-}
-
-
-.fex {
-    padding: 15px 0;
 }
 
 nav .navbar-brand img {
@@ -677,8 +675,6 @@ input.form-check-input {
 .send-btn button {
     background-color: green;
     border-color: green;
-    /* background-color: #0f5b94;
-  border-color: #0f5b94; */
 }
 
 /******************slide*************/
